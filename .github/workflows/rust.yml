@@ -50,7 +50,7 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        rust: [stable, nightly]
+        rust: [stable]
 
     steps:
       - uses: actions/checkout@v2
